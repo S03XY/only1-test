@@ -24,4 +24,29 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  overscroll-behavior: none;
+}
+
+.wallet-adapter-button.wallet-adapter-button-trigger {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.Toastify__toast-theme--light {
+  border-radius: 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  background: linear-gradient(
+      0deg,
+      rgba(40, 59, 62, 0.8) 0%,
+      rgba(40, 59, 62, 0.8) 100%
+    ),
+    rgba(37, 37, 37, 0.82) !important;
+  background-blend-mode: overlay, normal !important;
+  box-shadow: -4px 8px 32px 0px rgba(0, 0, 0, 0.72),
+    0px 16px 24px 0px rgba(0, 0, 0, 0.42) !important;
+  backdrop-filter: blur(32px) !important;
+}
+
+.Toastify__close-button {
+  display: none !important;
 }
